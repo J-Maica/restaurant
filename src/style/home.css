@@ -1,0 +1,9 @@
+.bookNow {
+    background-image: url("../assets/cover.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: gray;
+    background-blend-mode: multiply ;
+}
