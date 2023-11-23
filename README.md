@@ -8,7 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Note
-* Customize your own Reservation Form and Contact process.
+* Format your own Reservation Form and Contact process.
+* Design inspired by: https://themewagon.com/themes/free-bootstrap-templates-food-restaurant-cafe-websites-design/
 
 ## Image source
 pizza : Photo by Sahal Hameed on Unsplash 
