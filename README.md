@@ -7,6 +7,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Note
+* Customize your own Reservation Form and Contact process.
+
 ## Image source
 pizza : Photo by Sahal Hameed on Unsplash 
 chicken: Photo by Peter Pham on Unsplash 
