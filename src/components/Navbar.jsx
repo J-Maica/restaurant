@@ -41,7 +41,7 @@ export default function Navbar() {
     >
       <div className="flex justify-between md:justify-center">
         <h1 className="text-4xl font-bold">
-          <a href="/">SITE NAME</a>
+          <a href="/restaurant/">SITE NAME</a>
         </h1>
         <button title="toggle" className="md:hidden" onClick={toggleNavbar}>
           <i
@@ -56,32 +56,32 @@ export default function Navbar() {
       >
         <ul className="grid text-center font-medium gap-6 py-2 md:justify-center md:flex h-fit">
           <li>
-            <NavLink to={"/"} onClick={closeNavbar}>
+            <NavLink to={"/restaurant/"} onClick={closeNavbar}>
               HOME
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/menu"} onClick={closeNavbar}>
+            <NavLink to={"/restaurant/menu"} onClick={closeNavbar}>
               MENU
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/gallery"} onClick={closeNavbar}>
+            <NavLink to={"/restaurant/gallery"} onClick={closeNavbar}>
               GALLERY
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/reservation"} onClick={closeNavbar}>
+            <NavLink to={"/restaurant/reservation"} onClick={closeNavbar}>
               RESERVATION
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/about"} onClick={closeNavbar}>
+            <NavLink to={"/restaurant/about"} onClick={closeNavbar}>
               ABOUT
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/contact"} onClick={closeNavbar}>
+            <NavLink to={"/restaurant/contact"} onClick={closeNavbar}>
               CONTACT
             </NavLink>
           </li>
