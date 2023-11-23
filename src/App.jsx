@@ -51,12 +51,12 @@ function App() {
           <Cover />
 
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/reservation" element={<Reservation />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/restaurant/" element={<Home />} />
+            <Route path="/restaurant/menu" element={<Menu />} />
+            <Route path="/restaurant/gallery" element={<Gallery />} />
+            <Route path="/restaurant/reservation" element={<Reservation />} />
+            <Route path="/restaurant/about" element={<About />} />
+            <Route path="/restaurant/contact" element={<Contact />} />
           </Routes>
         </>
       )}
