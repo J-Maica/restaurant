@@ -16,22 +16,22 @@ export default function Footer() {
         <h1 className="font-bold mb-6">LINK</h1>
         <ul className="grid gap-4 text-gray-400">
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/restaurant/"}>Home</Link>
           </li>
           <li>
-            <Link to={"/menu"}>Menu</Link>
+            <Link to={"/restaurant/menu"}>Menu</Link>
           </li>
           <li>
-            <Link to={"/gallery"}>Gallery</Link>
+            <Link to={"/restaurant/gallery"}>Gallery</Link>
           </li>
           <li>
-            <Link to={"/reservation"}>Reservation</Link>
+            <Link to={"/restaurant/reservation"}>Reservation</Link>
           </li>
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link to={"/restaurant/about"}>About</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={"/restaurant/contact"}>Contact</Link>
           </li>
         </ul>
       </div>
